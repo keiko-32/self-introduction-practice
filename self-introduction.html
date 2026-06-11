@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介-井上慶子</title>
+</head>
+<body>
+    <h1>自己紹介</h1>
+
+    <h2>プロフィール</h2>
+    <p>名前：井上慶子</p>
+    <p>年齢：39歳</p>
+    <p>出身地：福岡県</p>
+    <p>趣味：テレビ鑑賞</p>
+
+    <h2>好きなもの</h2>
+    <!--順序のないリスト-->
+    <ul>
+        <li>きゅうりの漬物</li>
+        <li>焼き鳥</li>
+        <li>刺身</li>
+    </ul>
+
+    <h2>今年の目標</h2>
+
+    <!--順序のあるリスト-->
+    <ol>
+        <li>朝６時までに起きる</li>
+        <li>家庭菜園をする</li>
+        <li>３～４時間/日の学習を継続する</li>
+    </ol>
+
+    <h2>リンク</h2>
+    <a href="https://github.com/keiko-32/my-first-git.git" target="_blank">私のGitHub
+    </a>
+
+    <h2>好きな風景</h2>
+    <img src="C:\Users\user\OneDrive\画像\landscape.jpg.jpg" alt="好きな風景" width="400">
+
+    <h2>お問い合わせ</h2>
+    <form action="/submit" method="POST">
+       <label>
+        お名前：
+        <input type="text" name="name" required>
+       </label>
+
+       <p>お問い合わせ種別:
+
+     <select name="category">
+            <option value="">--選択してください--</option>
+            <option value="general">一般的なお問い合わせ</option>
+            <option value="feedback">ご意見・ご要望</option>
+        </select>    </p>
+
+
+        <p>お問い合わせ内容:
+        <textarea name="message" rows="5" cols="40" placeholder="メッセージを入力してください" required></textarea></p>
+
+        <p><input type="submit" value="送信ボタン"></p>
+        </form>
+</body>
+</html>
